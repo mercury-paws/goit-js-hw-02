@@ -1,27 +1,5 @@
 "use strict";
 
-// const country = ["China", "Chile", "Australia", "Jamaica"];
-// const price = [100, 250, 170, 120];
-
-// function getShippingCost(country) {
-//   switch (country) {
-//     case "China":
-//       return `Shipping to ${country} will cost ${price[0]} credits`;
-//       break;
-//     case "Chile":
-//       return `Shipping to ${country} will cost ${price[1]} credits`;
-//       break;
-//     case "Australia":
-//       return `Shipping to ${country} will cost ${price[2]} credits`;
-//       break;
-//     case "Jamaica":
-//       return `Shipping to ${country} will cost ${price[3]} credits`;
-//       break;
-//     default:
-//       return `Sorry, there is no delivery to your country`;
-//   }
-// }
-
 function getShippingCost(country) {
   switch (country) {
     case "China":
@@ -40,6 +18,26 @@ function getShippingCost(country) {
       return `Sorry, there is no delivery to your country`;
   }
 }
+
+// const price = [100, 250, 170, 120];
+// function getShippingCost(country) {
+//   switch (country) {
+//     case "China":
+//       return `Shipping to ${country} will cost ${price[0]} credits`;
+//       break;
+//     case "Chile":
+//       return `Shipping to ${country} will cost ${price[1]} credits`;
+//       break;
+//     case "Australia":
+//       return `Shipping to ${country} will cost ${price[2]} credits`;
+//       break;
+//     case "Jamaica":
+//       return `Shipping to ${country} will cost ${price[3]} credits`;
+//       break;
+//     default:
+//       return `Sorry, there is no delivery to your country`;
+//   }
+// }
 
 console.log(getShippingCost("Australia")); // "Shipping to Australia will cost 170 credits"
 console.log(getShippingCost("Germany")); // "Sorry, there is no delivery to your country"
